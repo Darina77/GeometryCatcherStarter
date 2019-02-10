@@ -1,0 +1,491 @@
+﻿Log file open, 07/25/17 19:11:41
+LogInit:Display: Running engine for game: TestProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(153058681) SRandInit(153058681).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.122069
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.25-09.11.42:530][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-09.11.42:530][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.25-09.11.42:563][  0]LogInit: Computer: DESKTOP-IBGBMK1
+[2017.07.25-09.11.42:563][  0]LogInit: User: tommy
+[2017.07.25-09.11.42:563][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.25-09.11.42:563][  0]LogInit: High frequency timer resolution =2.437500 MHz
+[2017.07.25-09.11.42:564][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.25-09.11.42:564][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.25-09.11.42:564][  0]LogMemory: Process Physical Memory: 273.56 MB used, 273.56 MB peak
+[2017.07.25-09.11.42:564][  0]LogMemory: Process Virtual Memory: 270.46 MB used, 270.46 MB peak
+[2017.07.25-09.11.42:564][  0]LogMemory: Physical Memory: 4058.34 MB used,  3997.36 MB free, 8055.70 MB total
+[2017.07.25-09.11.42:564][  0]LogMemory: Virtual Memory: 647.28 MB used,  3997.36 MB free, 134217728.00 MB total
+[2017.07.25-09.11.42:850][  0]LogInit: Using OS detected language (en-US).
+[2017.07.25-09.11.42:850][  0]LogInit: Using OS detected locale (en-AU).
+[2017.07.25-09.11.42:910][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.25-09.11.46:182][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.25-09.11.46:906][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.07.25-09.11.46:906][  0]LogD3D11RHI:       1974/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.25-09.11.46:912][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.07.25-09.11.46:912][  0]LogD3D11RHI:       128/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.25-09.11.46:913][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.25-09.11.46:913][  0]LogD3D11RHI:       0/0/4027 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.25-09.11.46:913][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.25-09.11.46:919][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.25-09.11.46:919][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2017.07.25-09.11.46:919][  0]LogWindows: EnumDisplayDevices:
+[2017.07.25-09.11.46:919][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2017.07.25-09.11.46:919][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.07.25-09.11.46:920][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.07.25-09.11.46:920][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.07.25-09.11.46:920][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.07.25-09.11.46:920][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.07.25-09.11.46:920][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.07.25-09.11.46:920][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.25-09.11.47:647][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.25-09.11.47:706][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.25-09.11.47:713][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../../Users/tommy/Desktop/TestProject/Intermediate/Shaders/WorkingDirectory/14388/).
+[2017.07.25-09.11.47:713][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tommy/AppData/Local/Temp/UnrealShaderWorkingDir/35BD9D7949DFD4017DFE4AA8E8227B13/'.
+[2017.07.25-09.11.47:714][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.25-09.11.49:890][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.25-09.11.49:944][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.25-09.11.49:996][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.25-09.11.50:051][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.25-09.11.50:126][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.25-09.11.50:197][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.25-09.11.50:261][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.25-09.11.50:325][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.25-09.11.50:373][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.25-09.11.50:432][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.25-09.11.50:486][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.25-09.11.50:536][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.25-09.11.50:586][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.25-09.11.50:638][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.25-09.11.50:690][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.25-09.11.50:799][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.25-09.11.50:799][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.25-09.11.50:842][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.25-09.11.50:947][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.25-09.11.50:976][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.25-09.11.51:026][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.25-09.11.51:080][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.25-09.11.51:129][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.25-09.11.51:182][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.25-09.11.51:182][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.25-09.11.51:831][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.25-09.11.52:220][  0]LogDerivedDataCache: Loaded boot cache 0.39s 90MB C:/Users/tommy/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.25-09.11.52:220][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tommy/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.25-09.11.52:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tommy/Desktop/TestProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.25-09.11.52:220][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.25-09.11.52:220][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tommy/Desktop/TestProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.25-09.11.52:220][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.25-09.11.52:249][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.25-09.11.52:262][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tommy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.25-09.11.52:278][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.25-09.11.52:283][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.25-09.11.52:301][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-09.11.52:301][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.25-09.11.53:220][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.25-09.11.53:415][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.25-09.11.53:647][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.25-09.11.53:703][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.25-09.11.53:757][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.25-09.11.53:757][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.25-09.11.53:757][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.25-09.11.55:109][  0]LogNetVersion: TestProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2639995906)
+[2017.07.25-09.11.55:218][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2017.07.25-09.11.55:306][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.061628 seconds
+[2017.07.25-09.11.55:313][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.25-09.11.55:313][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.25-09.11.55:313][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.25-09.11.55:391][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.25-09.12.00:696][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.25-09.12.00:743][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.25-09.12.01:488][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.25-09.12.02:045][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.12.02:046][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.12.02:111][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.12.02:173][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.12.03:077][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.25-09.12.03:718][  0]LogEngine: Initializing Engine...
+[2017.07.25-09.12.03:720][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.25-09.12.04:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.25-09.12.04:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.25-09.12.04:229][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.25-09.12.04:241][  0]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-09.12.04:257][  0]LogInit: FAudioDevice initialized.
+[2017.07.25-09.12.04:306][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/tommy/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.25-09.12.04:324][  0]LogInit: Texture streaming: Enabled
+[2017.07.25-09.12.04:422][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.25-09.12.04:701][  0]LogInit: Transaction tracking system initialized
+[2017.07.25-09.12.05:055][  0]BlueprintLog: New page: Editor Load
+[2017.07.25-09.12.06:197][  0]LocalizationService: Info Localization service is disabled
+[2017.07.25-09.12.06:959][  0]LogConsoleResponse:Display: 
+[2017.07.25-09.12.07:332][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Desktop/TestProject/Content/' took 0.02s
+[2017.07.25-09.12.07:332][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.25-09.12.07:332][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.25-09.12.08:569][  0]SourceControl: Info Source control is disabled
+[2017.07.25-09.12.08:570][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.25-09.12.08:571][  0]LightingResults: New page: Lighting Build
+[2017.07.25-09.12.08:616][  0]MapCheck: New page: Map Check
+[2017.07.25-09.12.08:617][  0]LightingResults: New page: Lighting Build
+[2017.07.25-09.12.09:007][  0]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-09.12.09:017][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.25-09.12.09:047][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.25-09.12.09:098][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.578ms to complete.
+[2017.07.25-09.12.09:098][  0]LogFileHelpers: Loading map 'TutorialMap' took 0.529
+[2017.07.25-09.12.09:300][  0]LogCollectionManager: Loaded 0 collections in 0.001771 seconds
+[2017.07.25-09.12.09:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Desktop/TestProject/Saved/Collections/' took 0.01s
+[2017.07.25-09.12.09:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Desktop/TestProject/Content/Developers/tommy/Collections/' took 0.01s
+[2017.07.25-09.12.09:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tommy/Desktop/TestProject/Content/Collections/' took 0.01s
+[2017.07.25-09.12.09:396][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.25-09.12.09:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2017.07.25-09.12.09:477][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.07.25-09.12.09:838][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.25-09.12.09:889][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.25-09.12.10:035][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.25-09.12.10:059][  0]LogSlate: Took 0.006892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.25-09.12.10:070][  0]LogSlate: Took 0.006712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.25-09.12.10:085][  0]LogSlate: Took 0.008341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.25-09.12.10:263][  0]LogRenderer: Reallocating scene render targets to support 1124x628 NumSamples 1 (Frame:1).
+[2017.07.25-09.12.10:421][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.25-09.12.10:496][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.25-09.12.10:496][  0]LogLoad: (Engine Initialization) Total time: 30.73 seconds
+[2017.07.25-09.12.10:496][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.07.25-09.12.10:496][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.25-09.12.10:837][  0]LogOcInput: OculusInput pre-init called
+[2017.07.25-09.12.10:837][  0]LogHMD: Starting GearVRController plugin
+[2017.07.25-09.12.10:859][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.25-09.12.10:933][  0]LogSlate: Took 0.005319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-09.12.11:184][  1]LogAssetRegistry: Asset discovery search completed in 15.9878 seconds
+[2017.07.25-09.12.11:187][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.25-09.12.11:187][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2017.07.25-09.12.11:838][  3]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-09.40.15:421][514]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.25-09.40.15:908][514]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.07.25-09.40.16:604][514]LogSlate: Took 0.003790 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.25-09.47.11:754][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-09.47.11:821][573]LogSavePackage: Save=35.40ms
+[2017.07.25-09.47.11:822][573]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD77B54DCD4C02E424C204D0A8BA0BF240.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-09.47.11:827][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-09.47.13:448][655]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-09.47.13:597][655]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-09.47.14:358][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-09.47.14:402][694]LogSavePackage: Save=32.98ms
+[2017.07.25-09.47.14:402][694]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD187DCB3E40A7EBD51F6A4B940D48D992.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-09.47.14:404][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-09.47.16:829][831]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-09.47.16:880][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.47.16:881][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.47.16:882][831]PIE: New page: PIE session: TutorialMap (26 Jul 2017 5:47:16 am)
+[2017.07.25-09.47.16:882][831]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-09.47.16:886][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004216s)
+[2017.07.25-09.47.16:887][831]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-09.47.16:887][831]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2017.07.25-09.47.16:887][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.005486s)
+[2017.07.25-09.47.16:903][831]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-09.47.16:913][831]LogInit: FAudioDevice initialized.
+[2017.07.25-09.47.16:976][831]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-09.47.16:979][831]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-19.47.16
+[2017.07.25-09.47.16:979][831]LogWorld: Bringing up level for play took: 0.001739
+[2017.07.25-09.47.17:030][831]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.07.25-09.47.17:041][831]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap 0.932
+[2017.07.25-09.47.17:042][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.47.17:084][831]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.07.25-09.48.02:724][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.48.02:761][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.48.05:257][705]LogEditorViewport: Clicking on Actor (LMB): BP_GameManager_C (BP_GameManager)
+[2017.07.25-09.58.42:557][478]LogSlate: Took 0.009298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.25-09.58.48:009][796]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-09.58.48:043][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.58.48:043][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.58.48:044][796]PIE: New page: PIE session: TutorialMap (26 Jul 2017 5:58:48 am)
+[2017.07.25-09.58.48:044][796]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-09.58.48:046][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002749s)
+[2017.07.25-09.58.48:047][796]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-09.58.48:048][796]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2017.07.25-09.58.48:048][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004117s)
+[2017.07.25-09.58.48:097][796]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-09.58.48:105][796]LogInit: FAudioDevice initialized.
+[2017.07.25-09.58.48:158][796]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-09.58.48:162][796]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-19.58.48
+[2017.07.25-09.58.48:162][796]LogWorld: Bringing up level for play took: 0.001754
+[2017.07.25-09.58.48:172][796]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap 0.063
+[2017.07.25-09.58.48:172][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.58.50:054][906]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.58.50:109][906]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.58.55:475][219]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-09.58.55:494][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.58.55:494][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.58.55:494][219]PIE: New page: PIE session: TutorialMap (26 Jul 2017 5:58:55 am)
+[2017.07.25-09.58.55:494][219]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-09.58.55:497][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002724s)
+[2017.07.25-09.58.55:497][219]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-09.58.55:498][219]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2017.07.25-09.58.55:498][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003743s)
+[2017.07.25-09.58.55:544][219]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-09.58.55:553][219]LogInit: FAudioDevice initialized.
+[2017.07.25-09.58.55:608][219]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-09.58.55:611][219]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-19.58.55
+[2017.07.25-09.58.55:611][219]LogWorld: Bringing up level for play took: 0.001547
+[2017.07.25-09.58.55:622][219]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap -0.486
+[2017.07.25-09.58.55:623][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.02:554][631]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.02:597][631]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.03:692][692]Cmd: TRANSACTION UNDO
+[2017.07.25-09.59.03:692][692]LogEditorTransaction: Undo Move Components
+[2017.07.25-09.59.04:231][724]Cmd: TRANSACTION UNDO
+[2017.07.25-09.59.04:231][724]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2017.07.25-09.59.05:020][771]Cmd: TRANSACTION UNDO
+[2017.07.25-09.59.05:020][771]LogEditorTransaction: Undo Move Components
+[2017.07.25-09.59.05:988][819]LogSavePackage: Save=107.41ms
+[2017.07.25-09.59.05:988][819]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/TutorialMap80D81B6243762E29BDB603900BE174EE.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Maps/TutorialMap.umap'
+[2017.07.25-09.59.05:995][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Maps/TutorialMap.umap
+[2017.07.25-09.59.06:026][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Maps/TutorialMap_BuiltData" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Maps/TutorialMap_BuiltData.uasset" SILENT=true
+[2017.07.25-09.59.06:046][819]LogSavePackage: Save=6.32ms
+[2017.07.25-09.59.06:046][819]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/TutorialMap_BuiltDataE7C0468A460E2C7CCC97A99B579951E7.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Maps/TutorialMap_BuiltData.uasset'
+[2017.07.25-09.59.06:048][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Maps/TutorialMap_BuiltData.uasset
+[2017.07.25-09.59.06:905][868]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-09.59.06:924][868]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.06:924][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.59.06:924][868]PIE: New page: PIE session: TutorialMap (26 Jul 2017 5:59:06 am)
+[2017.07.25-09.59.06:924][868]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-09.59.06:926][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002239s)
+[2017.07.25-09.59.06:927][868]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-09.59.06:927][868]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.07.25-09.59.06:927][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003191s)
+[2017.07.25-09.59.06:969][868]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-09.59.07:005][868]LogInit: FAudioDevice initialized.
+[2017.07.25-09.59.07:057][868]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-09.59.07:060][868]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-19.59.07
+[2017.07.25-09.59.07:062][868]LogWorld: Bringing up level for play took: 0.003992
+[2017.07.25-09.59.07:069][868]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap 0.961
+[2017.07.25-09.59.07:070][868]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.09:916][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.09:978][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.15:866][380]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-09.59.15:884][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.15:884][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-09.59.15:884][380]PIE: New page: PIE session: TutorialMap (26 Jul 2017 5:59:15 am)
+[2017.07.25-09.59.15:884][380]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-09.59.15:886][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002465s)
+[2017.07.25-09.59.15:887][380]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-09.59.15:887][380]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2017.07.25-09.59.15:887][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003337s)
+[2017.07.25-09.59.15:929][380]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-09.59.15:940][380]LogInit: FAudioDevice initialized.
+[2017.07.25-09.59.15:995][380]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-09.59.15:997][380]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-19.59.15
+[2017.07.25-09.59.15:998][380]LogWorld: Bringing up level for play took: 0.001419
+[2017.07.25-09.59.16:005][380]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap -0.104
+[2017.07.25-09.59.16:005][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.28:419][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-09.59.28:474][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.08.11:049][799]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-10.08.11:061][799]LogBlueprint:Error: [Compiler WBP_HUD] Error Binding: Property ' TextDelegate ' on Widget ' CounterText ': Binding: 'None' : 'None' was not found on 'WBP HUD'.
+[2017.07.25-10.08.11:287][799]BlueprintEditorCompileResults:Error: Error Binding: Property ' TextDelegate ' on Widget ' CounterText ': Binding: 'None' : 'None' was not found on 'WBP HUD'.
+[2017.07.25-10.08.11:287][799]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-10.08.11:288][799]LogBlueprint:Warning: [Compiler WBP_HUD] Warning [3391.52] Compile of WBP_HUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 237 ms] (/Game/TestProject/UI/WBP_HUD.WBP_HUD)
+[2017.07.25-10.08.37:364][916]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-10.08.37:541][916]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-10.08.55:586][961]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.08.57:236][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.08.57:355][ 31]LogSavePackage: Save=100.97ms
+[2017.07.25-10.08.57:355][ 31]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManagerA12A929A451BB9390664F4802D269C32.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.08.57:360][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.09.33:438][942]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.09.58:900][ 29]LogSavePackage: Save=104.82ms
+[2017.07.25-10.09.58:900][ 29]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/TutorialMap_Auto1A6322B3646DCD16441D3F6AB1A301CC1.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Maps/TutorialMap_Auto1.umap'
+[2017.07.25-10.09.58:902][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Maps/TutorialMap_Auto1.umap
+[2017.07.25-10.09.58:905][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestProject/Maps/TutorialMap' took 0.148
+[2017.07.25-10.09.58:905][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2017.07.25-10.09.58:907][ 29]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestProject/Blueprints/BP_GameManager] ([1] browsable assets)...
+[2017.07.25-10.09.58:908][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestProject/Blueprints/BP_GameManager]
+[2017.07.25-10.09.59:017][ 29]LogSavePackage: Save=99.58ms
+[2017.07.25-10.09.59:017][ 29]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManager_Auto1736A3711410BFC3DF0871E8FD73127A4.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Blueprints/BP_GameManager_Auto1.uasset'
+[2017.07.25-10.09.59:021][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Blueprints/BP_GameManager_Auto1.uasset
+[2017.07.25-10.09.59:022][ 29]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestProject/UI/WBP_HUD] ([1] browsable assets)...
+[2017.07.25-10.09.59:022][ 29]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestProject/UI/WBP_HUD]
+[2017.07.25-10.09.59:022][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/UI/WBP_HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.07.25-10.09.59:059][ 29]LogSavePackage: Save=24.34ms
+[2017.07.25-10.09.59:059][ 29]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD_Auto12E72B67B405B51649DCACAB4D6709894.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/UI/WBP_HUD_Auto1.uasset'
+[2017.07.25-10.09.59:061][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/UI/WBP_HUD_Auto1.uasset
+[2017.07.25-10.09.59:061][ 29]LogFileHelpers: Auto-saving content packages took 0.154
+[2017.07.25-10.10.13:204][452]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.10.13:225][452]LogBlueprint:Warning: [Compiler BP_GameManager] Warning Variable ShapesCollected is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.07.25-10.10.13:411][452]BlueprintEditorCompileResults:Warning: Warning Variable ShapesCollected is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2017.07.25-10.10.13:412][452]LogBlueprint:Warning: [Compiler BP_GameManager] Warning [3513.65] Compile of BP_GameManager successful, but with 1 Warning(s) [in 207 ms] (/Game/TestProject/Blueprints/BP_GameManager.BP_GameManager)
+[2017.07.25-10.10.19:321][783]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.14.31:089][918]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.14.32:417][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.14.32:537][973]LogSavePackage: Save=100.51ms
+[2017.07.25-10.14.32:537][973]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManager029F9B7A4AA42DC57BDC0F9B748C2833.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.14.32:543][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.14.34:848][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-10.14.34:889][ 82]LogSavePackage: Save=24.53ms
+[2017.07.25-10.14.34:889][ 82]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD1F76465C4CDB2C8B2450489AE3B322D7.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-10.14.34:897][ 82]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-10.15.36:350][400]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.15.37:629][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.15.37:743][447]LogSavePackage: Save=99.89ms
+[2017.07.25-10.15.37:743][447]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManager170CC37246A88B1CCA5B7BB7BBE2B896.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.15.37:747][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.15.55:155][442]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.15.56:643][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.15.56:756][507]LogSavePackage: Save=99.69ms
+[2017.07.25-10.15.56:756][507]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManagerC45F06C041C4B4A76C5C1897905ECEFD.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.15.56:760][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.16.16:061][443]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.16.17:134][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.16.17:244][486]LogSavePackage: Save=101.30ms
+[2017.07.25-10.16.17:244][486]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManager51ACBB2C45AD6088E1DDB997AE0F41FE.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.16.17:248][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.17.06:801][986]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-10.17.06:945][986]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-10.17.07:426][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-10.17.07:480][ 11]LogSavePackage: Save=34.05ms
+[2017.07.25-10.17.07:480][ 11]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD1DDBF8ED4CD986EC83201B878CCCBE9B.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-10.17.07:482][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-10.17.09:688][140]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-10.17.09:710][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.17.09:710][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-10.17.09:710][140]PIE: New page: PIE session: TutorialMap (26 Jul 2017 6:17:09 am)
+[2017.07.25-10.17.09:710][140]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-10.17.09:713][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003192s)
+[2017.07.25-10.17.09:714][140]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-10.17.09:714][140]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2017.07.25-10.17.09:714][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004228s)
+[2017.07.25-10.17.09:757][140]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-10.17.09:767][140]LogInit: FAudioDevice initialized.
+[2017.07.25-10.17.09:812][140]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-10.17.09:814][140]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-20.17.09
+[2017.07.25-10.17.09:814][140]LogWorld: Bringing up level for play took: 0.001282
+[2017.07.25-10.17.09:821][140]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap -0.287
+[2017.07.25-10.17.09:822][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.17.13:984][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.17.14:035][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.17.51:678][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-10.17.51:723][659]LogSavePackage: Save=30.35ms
+[2017.07.25-10.17.51:723][659]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD1A45C266401622A54C4621AED183E2FB.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-10.17.51:725][659]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-10.20.04:209][131]LogSavePackage: Save=106.25ms
+[2017.07.25-10.20.04:210][131]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/TutorialMap_Auto2745580DE45E5F827ACE702BD32FC2105.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Maps/TutorialMap_Auto2.umap'
+[2017.07.25-10.20.04:211][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Maps/TutorialMap_Auto2.umap
+[2017.07.25-10.20.04:214][131]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestProject/Maps/TutorialMap' took 0.151
+[2017.07.25-10.20.04:214][131]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.151
+[2017.07.25-10.24.41:569][801]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-10.24.41:707][801]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-10.24.42:335][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-10.24.42:386][829]LogSavePackage: Save=31.41ms
+[2017.07.25-10.24.42:386][829]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUDCA3FB09543962A6CBFA5CEAE06EA3794.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-10.24.42:390][829]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-10.24.56:448][529]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-10.24.56:630][529]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-10.24.57:200][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset" SILENT=true
+[2017.07.25-10.24.57:243][553]LogSavePackage: Save=30.73ms
+[2017.07.25-10.24.57:243][553]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD83679A0D4B39DB270322DE87EDE0EA7F.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset'
+[2017.07.25-10.24.57:246][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/UI/WBP_HUD.uasset
+[2017.07.25-10.25.12:078][397]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.25.12:943][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.25.13:061][434]LogSavePackage: Save=102.10ms
+[2017.07.25-10.25.13:062][434]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManager34591EDB480644C3A81CE297E8FB71EC.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.25.13:065][434]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.29.16:526][ 82]BlueprintLog: New page: Compile WBP_HUD
+[2017.07.25-10.29.16:654][ 82]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.25-10.29.19:053][223]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-10.29.19:083][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.29.19:084][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-10.29.19:084][223]PIE: New page: PIE session: TutorialMap (26 Jul 2017 6:29:19 am)
+[2017.07.25-10.29.19:084][223]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-10.29.19:087][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003022s)
+[2017.07.25-10.29.19:088][223]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-10.29.19:088][223]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2017.07.25-10.29.19:088][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004445s)
+[2017.07.25-10.29.19:141][223]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-10.29.19:149][223]LogInit: FAudioDevice initialized.
+[2017.07.25-10.29.19:195][223]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-10.29.19:199][223]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-20.29.19
+[2017.07.25-10.29.19:200][223]LogWorld: Bringing up level for play took: 0.003643
+[2017.07.25-10.29.19:206][223]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap 1.097
+[2017.07.25-10.29.19:207][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.29.37:513][312]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.29.37:554][312]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.30.16:584][622]LogEditorTransaction: Undo Paste clipboard contents
+[2017.07.25-10.30.18:464][728]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/TestProject/Blueprints/BP_GameManager.BP_GameManager:EventGraph.K2Node_VariableSet_808 or K2Node_VariableSet /Game/TestProject/Blueprints/BP_GameManager.BP_GameManager:EventGraph.K2Node_VariableSet_808
+[2017.07.25-10.30.28:612][306]BlueprintLog: New page: Compile BP_GameManager
+[2017.07.25-10.30.29:434][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/Blueprints/BP_GameManager" FILE="../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset" SILENT=true
+[2017.07.25-10.30.29:559][342]LogSavePackage: Save=104.67ms
+[2017.07.25-10.30.29:559][342]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/BP_GameManager38FF47F14698B82C89851AAE9984F7C9.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset'
+[2017.07.25-10.30.29:563][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Content/TestProject/Blueprints/BP_GameManager.uasset
+[2017.07.25-10.30.30:276][382]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.25-10.30.30:295][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.30.30:295][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.25-10.30.30:296][382]PIE: New page: PIE session: TutorialMap (26 Jul 2017 6:30:30 am)
+[2017.07.25-10.30.30:296][382]LogPlayLevel: Creating play world package: /Game/TestProject/Maps/UEDPIE_0_TutorialMap
+[2017.07.25-10.30.30:298][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002291s)
+[2017.07.25-10.30.30:299][382]LogAIModule: Creating AISystem for world TutorialMap
+[2017.07.25-10.30.30:299][382]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.07.25-10.30.30:299][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestProject/Maps/TutorialMap.TutorialMap to /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.003251s)
+[2017.07.25-10.30.30:346][382]LogInit: XAudio2 using 'Speakers / Headphones (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.25-10.30.30:355][382]LogInit: FAudioDevice initialized.
+[2017.07.25-10.30.30:403][382]LogLoad: Game class is 'GM_Tutorial_C'
+[2017.07.25-10.30.30:405][382]LogWorld: Bringing World /Game/TestProject/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2017.07.25-20.30.30
+[2017.07.25-10.30.30:406][382]LogWorld: Bringing up level for play took: 0.001981
+[2017.07.25-10.30.30:416][382]PIE: Info Play in editor start time for /Game/TestProject/Maps/UEDPIE_0_TutorialMap 0.308
+[2017.07.25-10.30.30:417][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.30.52:226][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.30.52:273][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap' with GeneratedClass '/Game/TestProject/Maps/TutorialMap.TutorialMap_C' with ClassGeneratedBy '/Game/TestProject/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap'
+[2017.07.25-10.31.17:537][695]LogSavePackage: Save=114.36ms
+[2017.07.25-10.31.17:537][695]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/TutorialMap_Auto333A4499447D3CE9A6AFA009E19039E24.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Maps/TutorialMap_Auto3.umap'
+[2017.07.25-10.31.17:540][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/Maps/TutorialMap_Auto3.umap
+[2017.07.25-10.31.17:543][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestProject/Maps/TutorialMap' took 0.156
+[2017.07.25-10.31.17:543][695]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2017.07.25-10.31.17:546][695]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestProject/UI/WBP_HUD] ([1] browsable assets)...
+[2017.07.25-10.31.17:546][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestProject/UI/WBP_HUD]
+[2017.07.25-10.31.17:546][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestProject/UI/WBP_HUD" FILE="../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/UI/WBP_HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.07.25-10.31.17:590][695]LogSavePackage: Save=31.24ms
+[2017.07.25-10.31.17:590][695]LogSavePackage: Moving '../../../../../../Users/tommy/Desktop/TestProject/Saved/WBP_HUD_Auto3EC35D27346515A68DDA1BFBF09655BE1.tmp' to '../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/UI/WBP_HUD_Auto3.uasset'
+[2017.07.25-10.31.17:591][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tommy/Desktop/TestProject/Saved/Autosaves/Game/TestProject/UI/WBP_HUD_Auto3.uasset
+[2017.07.25-10.31.17:592][695]LogFileHelpers: Auto-saving content packages took 0.047
